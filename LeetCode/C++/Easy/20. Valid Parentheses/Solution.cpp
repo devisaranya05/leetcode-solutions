@@ -1,82 +1,37 @@
-// class Solution {
-// public:
-//     bool isValid(string s) {
-//     int i;
-//     stack<char>n;
-    
-//     for(i=0; i<s.size(); i++){
-//      if(s[0]==')' || s[0]==']' || s[0]=='}'){
-//         return false;
-//     }
-//     else if (s[i]=='(' || s[i]=='{' || s[i]=='['){
-//         n.push(s[i]);
-//     }
-//     else if (s[i]==')'){
-//         if(n.top()=='('){
-//             n.pop();
-//         }
-//         else{
-//             return false;
-//         }
-//     }
-//     else if (s[i]==']'){
-//         if(n.top()=='['){
-//             n.pop();
-//         }
-//         else{
-//             return false;
-//         }
-//     }
-//     else if (s[i]=='}'){
-//         if(n.top()=='{'){
-//             n.pop();
-//         }
-//         else{
-//             return false;
-//         }
-//     }
-//     else{
-//         return false;
-//     }
-//     }
-//     if(n.empty()){
-//         return true;
-//     }
-//     else{
-//         return false;
-//     }
-//     }
-// };
-
-
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char> n;
+        stack<char> st;
 
-        for (int i = 0; i < s.size(); i++) {
+        for(int i = 0; i < s.length(); i++) {
 
-            if (s[i] == '(' || s[i] == '{' || s[i] == '[') {
-                n.push(s[i]);
+            char ch = s[i];
+
+            // Opening bracket -> push
+            if(ch == '(' || ch == '{' || ch == '[') {
+                st.push(ch);
             }
             else {
-                // stack empty but closing bracket found
-                if (n.empty()) return false;
+                // Closing bracket
+                if(!st.empty()) {
+                    char top = st.top();
 
-                if (s[i] == ')' && n.top() == '(') {
-                    n.pop();
-                }
-                else if (s[i] == ']' && n.top() == '[') {
-                    n.pop();
-                }
-                else if (s[i] == '}' && n.top() == '{') {
-                    n.pop();
+                    if((ch == ')' && top == '(') ||
+                       (ch == '}' && top == '{') ||
+                       (ch == ']' && top == '[')) {
+
+                        st.pop();
+                    }
+                    else {
+                        return false;
+                    }
                 }
                 else {
                     return false;
                 }
             }
         }
-        return n.empty();
+
+        return st.empty();
     }
 };
