@@ -13,12 +13,10 @@ public:
                 sum += x.second;
             }
             if(x.second % 2 != 0){
-                if(m < x.second){
-                    m= x.second;
-                }
+                sum += x.second - 1;
             }
         }
-        sum += m;
-        return sum;
+        // sum += m;
+        return sum+1;
     }
 };
