@@ -14,9 +14,15 @@ public:
             }
             if(x.second % 2 != 0){
                 sum += x.second - 1;
+                count=0;
             }
         }
         // sum += m;
+        if(count==0){
         return sum+1;
+        }
+        else{
+            return sum;
+        }
     }
 };
