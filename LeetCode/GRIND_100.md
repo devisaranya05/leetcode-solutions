@@ -10,7 +10,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 ## Checklist
 
 ### 📂 Array & Two Pointers
-- [x] [Two Sum](./C/Easy/1. Two Sum/)
+- [x] [Two Sum](./C++/Easy/1. Two Sum/)
 - [ ] 3Sum
 - [ ] Container With Most Water
 - [x] [Move Zeroes](./C++/Easy/283. Move Zeroes/)
