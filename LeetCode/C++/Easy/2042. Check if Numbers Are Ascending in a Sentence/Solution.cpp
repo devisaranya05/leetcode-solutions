@@ -17,7 +17,6 @@ public:
                        else{
                         m=n;
                        }
-                       i++;
                    }
                    else{
                       n=(s[i]-'0')*10;
