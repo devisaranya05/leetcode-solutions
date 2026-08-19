@@ -1,6 +1,6 @@
 # 📝 1859. Sorting the Sentence (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/sorting-the-sentence)
+🔗 [Problem Link](https://leetcode.com/problems/sorting-the-sentence/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
