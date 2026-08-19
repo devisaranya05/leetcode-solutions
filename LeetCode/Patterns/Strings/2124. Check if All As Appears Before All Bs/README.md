@@ -1,6 +1,6 @@
 # 📝 2124. Check if All A's Appears Before All B's (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)
+🔗 [Problem Link](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
