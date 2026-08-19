@@ -9,7 +9,7 @@ public:
 
               }
               else{
-                   if((s[i+1] >='A' && s[i+1] <='Z') || (s[i+1]>='a' && s[i+1]<='z') || s[i+1]==' '){
+                   if((s[i+1] >='A' && s[i+1] <='Z') || (s[i+1]>='a' && s[i+1]<='z') || s[i+1]==' ' || (i+1)==s.size()){
                        n=s[i]-'0';
                        if(m >= n){
                           return false;
