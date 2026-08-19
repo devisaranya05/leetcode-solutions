@@ -1,6 +1,6 @@
 # 📝 2042. Check if Numbers Are Ascending in a Sentence (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)
+🔗 [Problem Link](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
