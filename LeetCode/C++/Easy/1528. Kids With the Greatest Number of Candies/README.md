@@ -9,7 +9,7 @@ Array
 
 ### 🚀 Performance
 - **Runtime:** 0 ms
-- **Memory:** 12.4 MB
+- **Memory:** 12.7 MB
 
 ---
 
