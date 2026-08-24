@@ -1,17 +1,17 @@
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
-        vector<int>l;
-        vector<int>r;
-        int i,k=0,b=0;
-        for(i=0;i<nums.size(); i++){
-             k += nums[i];
-             b += nums[nums.size()-i-1];
-             l.push_back(k);
-             r.push_back(b);
+        vector<int>p;
+        int s=0;
+        p.push_back(0);
+        for(int i=0; i<nums.size(); i++){
+           s+= nums[i];
+           p.push_back(s);
         }
-        for(i=0; i<nums.size(); i++){
-            if(l[i]==r[nums.size()-i-1]){
+        for(int i=0; i<nums.size(); i++){
+            int ls = p[i];
+            int rs = p[nums.size()] - p[i+1];
+            if(ls == rs){
                 return i;
             }
         }
