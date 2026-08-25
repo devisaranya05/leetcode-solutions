@@ -8,8 +8,8 @@
 Array, Divide and Conquer, Dynamic Programming
 
 ### 🚀 Performance
-- **Runtime:** 1 ms
-- **Memory:** 71.7 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
