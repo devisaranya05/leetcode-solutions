@@ -1,6 +1,6 @@
 # 📝 2906. Construct Product Matrix (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/construct-product-matrix/)
+🔗 [Problem Link](https://leetcode.com/problems/construct-product-matrix)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
