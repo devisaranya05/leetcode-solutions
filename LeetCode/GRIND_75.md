@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 10 / 75 (13.3%)
+- **Completed:** 11 / 75 (14.7%)
 
 ---
 
@@ -19,7 +19,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Find Minimum in Rotated Sorted Array
 - [x] [Search in Rotated Sorted Array](./C++/Medium/33. Search in Rotated Sorted Array/)
 - [ ] 3Sum
-- [ ] Container With Most Water
+- [x] [Container With Most Water](./C/Medium/11. Container With Most Water/)
 
 ### 📂 Binary
 - [ ] Sum of Two Integers
