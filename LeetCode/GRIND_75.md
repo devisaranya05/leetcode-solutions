@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 11 / 75 (14.7%)
+- **Completed:** 12 / 75 (16.0%)
 
 ---
 
@@ -13,7 +13,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [x] [Two Sum](./C++/Easy/1. Two Sum/)
 - [x] [Best Time to Buy and Sell Stock](./C/Easy/121. Best Time to Buy and Sell Stock/)
 - [ ] Contains Duplicate
-- [ ] Product of Array Except Self
+- [x] [Product of Array Except Self](./C++/Medium/238. Product of Array Except Self/)
 - [x] [Maximum Subarray](./C++/Medium/53. Maximum Subarray/)
 - [ ] Maximum Product Subarray
 - [ ] Find Minimum in Rotated Sorted Array
