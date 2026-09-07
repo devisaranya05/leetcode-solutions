@@ -1,27 +1,22 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-                int low = 0;
-        int mid = 0;
-        int high = nums.size() - 1;
+        int l = 0;
+        int m = 0;
+        int r = nums.size() - 1;
 
-        while (mid <= high) {
-            switch (nums[mid]) {
-           
-                case 0:
-                    std::swap(nums[low], nums[mid]);
-                    low++;
-                    mid++;
-                    break;
-               
-                case 1:
-                    mid++;
-                    break;
-       
-                case 2:
-                    std::swap(nums[mid], nums[high]);
-                    high--;
-                    break;
+        while (m <= r) {
+            if (nums[m] == 0) {
+                swap(nums[l], nums[m]);
+                l++;
+                m++;
+            }
+            else if (nums[m] == 1) {
+                m++;
+            }
+            else {
+                swap(nums[m], nums[r]);
+                r--;
             }
         }
     }
