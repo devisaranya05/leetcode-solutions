@@ -24,7 +24,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Valid Palindrome
 - [x] [Two Sum II - Input Array Is Sorted](./C++/Medium/167. Two Sum II - Input Array Is Sorted/)
 - [ ] 3Sum
-- [x] [Container With Most Water](./C/Medium/11. Container With Most Water/)
+- [x] [Container With Most Water](./C++/Medium/11. Container With Most Water/)
 - [ ] Trapping Rain Water
 
 ### 📂 Sliding Window

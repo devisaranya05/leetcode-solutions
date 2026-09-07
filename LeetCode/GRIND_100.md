@@ -12,7 +12,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 ### 📂 Array & Two Pointers
 - [x] [Two Sum](./C++/Easy/1. Two Sum/)
 - [ ] 3Sum
-- [x] [Container With Most Water](./C/Medium/11. Container With Most Water/)
+- [x] [Container With Most Water](./C++/Medium/11. Container With Most Water/)
 - [x] [Move Zeroes](./C++/Easy/283. Move Zeroes/)
 - [x] [Sort Colors](./C++/Medium/75. Sort Colors/)
 - [x] [Product of Array Except Self](./C++/Medium/238. Product of Array Except Self/)
