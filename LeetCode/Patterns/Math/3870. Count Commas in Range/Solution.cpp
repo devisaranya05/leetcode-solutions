@@ -8,10 +8,10 @@ public:
             return n-999;
         }
         else if(n>=10000 && n<100000){
-            return n-9999;
+            return n-999;
         }
         else{
-            return n-99999;
+            return n-9999;
         }
     }
 };
