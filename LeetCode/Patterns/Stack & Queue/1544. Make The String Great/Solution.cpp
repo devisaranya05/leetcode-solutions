@@ -25,10 +25,10 @@ public:
 
         stack<char>st;
         for(int i=0; i<s.size(); i++){
-            if(st.empty() || st.top()-s[i] != 32){
+            if(st.empty() || abs(st.top()-s[i]) != 32){
                 st.push(s[i]);
             }
-            else if(st.top()-s[i] == 32){
+            else if(abs(st.top()-s[i]) == 32){
                 st.pop();
             }
         }
