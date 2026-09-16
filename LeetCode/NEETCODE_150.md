@@ -12,7 +12,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 ### 📂 Arrays & Hashing
 - [ ] Contains Duplicate
 - [ ] Valid Anagram
-- [x] [Two Sum](./C/Easy/1. Two Sum/)
+- [x] [Two Sum](./C++/Easy/1. Two Sum/)
 - [ ] Group Anagrams
 - [x] [Top K Frequent Elements](./C++/Medium/347. Top K Frequent Elements/)
 - [x] [Product of Array Except Self](./C++/Medium/238. Product of Array Except Self/)

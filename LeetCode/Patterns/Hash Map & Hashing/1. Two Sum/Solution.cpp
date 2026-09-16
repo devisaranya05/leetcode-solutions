@@ -1,25 +1,18 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-
         vector<pair<int, int>> v;
-
         // Store value + original index
         for(int i = 0; i < nums.size(); i++) {
             v.push_back({nums[i], i});
         }
-
         // Sort according to value
         sort(v.begin(), v.end());
-
         int i = 0;
         int j = v.size() - 1;
-
         // Two pointers
         while(i < j) {
-
             int sum = v[i].first + v[j].first;
-
             if(sum == target) {
                 return {v[i].second, v[j].second};
             }
@@ -30,7 +23,6 @@ public:
                 i++;
             }
         }
-
         return {};
     }
 };
