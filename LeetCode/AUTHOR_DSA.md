@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 4 / 238 (1.7%)
+- **Completed:** 5 / 238 (2.1%)
 
 ---
 
@@ -223,7 +223,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Robot Return to Origin
 - [ ] Remove Stars From String
 - [ ] Replace Characters
-- [ ] Clear Digits
+- [x] [Clear Digits](./C++/Easy/3447. Clear Digits/)
 - [ ] Vowel-less Game
 - [ ] Chessboard Square Color
 - [ ] Number
